@@ -98,7 +98,11 @@ class Post(db.Model):
     def get_post(self):
         post = Post.query.filter_by(post_id)
         return post
-
+        
+class BlogPost(models.Model):
+      id = models.IntegerField(primary_key=True)
+      likes = models.IntegerField(default=0)
+      post = models.TextField()
 
     def __repr__(self):
         return f'User {self.name}'
