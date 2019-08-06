@@ -16,9 +16,9 @@ The application will allow the users to sign up and after that they can be able 
 
 | Behavior                    | Input                         | Output                                     |
 |-----------------------------|:----------------------------: | ------------------------------------------:|
-| Homepage loads              |  Data from index mark up      |  Displays posts                            |
-| Homepage loads              |  Click on sign in             |  Displays signs in page                    |
-| New page loads              |  Click on sign                |  Displays sign up page                     |
+| Index page loading          |  Data from index mark up      |  Displays the home page                    |
+| sign in page loading        |  Click on sign in             |  Displays signs in page                    |
+| New page loads              |  Click on signup              |  Displays sign up page                     |
 | Profile page loads          |  Click add pitch              |  Adds pitch                                |
 | Comment page loads          |  Click comment                |  Adds comment                              |
 
